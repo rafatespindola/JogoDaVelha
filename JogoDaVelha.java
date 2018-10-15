@@ -83,8 +83,8 @@ public class JogoDaVelha {
     * Analisa a posição indicada pelos parâmetros umaLInha e umaColuna
     * ela é útil para a função "draw" que imprime na tela o tabuleiro
     * @return a string " X " se na possição estiver com -1
-    * @return a string " O " se na possição estiver com 1
-    * @return a string "   " se na possição estiver com 0
+    * @return a string " O " se na possição estiver com  1
+    * @return a string "   " se na possição estiver com  0
     * */
     public String XouY(int umaLinha, int umaColuna){
         if (this.matriz[umaLinha][umaColuna] == -1) return " X ";
